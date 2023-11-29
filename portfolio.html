@@ -1,0 +1,290 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Mohammad Zahedipour</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css">
+  <script src="https://cdn.jsdelivr.net/npm/jquery@3.7.1/dist/jquery.slim.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js"></script>
+  <style>
+    .CTA {
+      position: relative;
+      width: 100%;
+    }
+
+    .navbar {
+      background-color: rgba(0, 0, 0, 0.8);
+    }
+
+    .CTA .ctaButton {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  background-color: #555;
+  color: white;
+
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  padding: 12px 24px;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+  text-align: center;
+}
+
+.container {
+    position: relative;
+	width: 100%;
+  }
+  img {
+     width: 100%;
+	 
+  }
+  .ctaButton{
+    border-radius: 15px;
+    background: linear-gradient(180deg, rgba(2, 2, 2, 0.00) 0%, #527081 80.73%);
+  }
+
+  .ctaButton{
+    border-radius: 15px;
+    background: linear-gradient(180deg, rgba(2, 2, 2, 0.00) 0%, #527081 80.73%);
+  margin-left:-20%;
+    margin-top:15%;
+    width: 50%;
+  }
+
+  
+  @media only screen and (min-width: 300) {
+    .ctaButton{
+      height:19%;
+  }
+  .CTA .ctaButton {
+  font-size: 80%;
+  }
+}
+
+  @media only screen and (min-width: 600px) {
+    .ctaButton{
+      height:15%;
+  }
+  .CTA .ctaButton {
+  font-size: 100%;
+  }
+}
+
+.background-img {
+  opacity: 0.5; /* Adjust the opacity level as desired */
+}
+@media only screen and (min-width: 768px) {
+  .ctaButton{
+    height:15%;
+  }
+  .CTA .ctaButton {
+  font-size: 150%;
+  }
+}
+.logo-img {
+  height: 40px; /* Adjust the height as needed */
+  width: auto; /* This ensures the width scales proportionally */
+}
+
+.line {
+      height: 1px;
+      background-color: #ccc;
+      margin: 20px 0;
+    }
+#home {
+      background-image: url("home-background.jpg");
+      color: white; /* Set contrasting text color */
+      padding: 50px;
+    }
+    
+    .section {
+      padding: 50px;
+      margin-bottom: 30px; /* Add margin to create space between sections */
+      border-bottom: 1px solid #ccc; /* Optional: Add a border at the bottom of each section */
+    }
+    
+    #services {
+      background-color: #f2f2f2; /* Set a background color for services section */
+    }
+    
+    #resume {
+      background-color: #e6e6e6; /* Set a background color for resume section */
+    }
+  </style>
+  <script >
+function gotoLink(link){
+ window.location.href=link
+}
+
+function openNewPage(link){
+  window.open(link, "_blank");
+}
+
+  </script>
+</head>
+<body class="bg-light">
+
+<nav class="navbar navbar-expand-sm navbar-dark fixed-top">
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+  <div class="collapse navbar-collapse" id="navbarResponsive">
+    <ul class="navbar-nav">
+      <li class="nav-item">
+        <a class="nav-link" href="#Home">Home</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#About">About</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#Resume">Resume</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#Services">Services</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#Contact">Contact</a>
+      </li>
+    </ul>
+  </div>
+</nav>
+
+
+<section id="Home">
+  <div class="CTA ">
+    <img src="./Home.png" alt="img" style="width: 100%;">
+    <button class="ctaButton" onclick="gotoLink('#Contact')">Contact me </button>
+    </div>
+
+</section>
+<section id="About" class="bg white">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-6">
+        <div class="text-justify">
+          <h2 class="section-heading text-uppercase">About Me</h2>
+          <p>
+            Greetings! I'm Mohammad, a passionate freelance web developer with a robust background in computer science and software engineering. I earned my master's degree from the University of Tarbiat Modares, where I immersed myself in the world of technology.
+          </p>
+          <p>
+            With over 3 years of hands-on experience, specializing in web development at Dotin, I bring expertise in Java, the Spring framework, and Hibernate for robust back-end solutions. On the front end, I choose ReactJS to infuse creativity and functionality into my web applications.
+          </p>
+        </div>
+      </div>
+      <div class="col-lg-6">
+        <div class="text-justify">
+          <p>
+            In addition to my proficiency in web development, I've delved into the fascinating realms of machine learning and deep learning. My exploration of AI programming and computer vision using Python has equipped me with a versatile skill set, allowing me to bring innovative solutions to the table.
+          </p>
+          <p>
+            What truly sets me apart is not just my technical prowess but my genuine enthusiasm for creating impactful digital solutions. I believe in the power of collaboration and am excited about the prospect of working together on challenging projects. Whether you're looking to enhance your website or need a dedicated team member, I'm here to bring your vision to life.
+          </p>
+          <p>
+            Feel free to explore my portfolio and get in touch with any questions or project inquiries. Let's embark on a journey of innovation and create something extraordinary together!
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section id="Resume" class="bg-light">
+  <div class="line"></div>
+  <div class="container">
+    <h2 class="section-heading text-uppercase">Resume</h2>
+    <div class="row">
+      <div class="col-lg-6">
+        <h4>Technical Skills</h4>
+        <h6>Back-end</h6>
+        <div class="progress mb-2 progress-bar bg-info" role="progressbar" style="width: 100%; height: 20px;" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100">Java </div>
+        <div class="progress mb-2 progress-bar bg-info" role="progressbar" style="width: 90%; height: 20px;" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100">spring framework(core,boot,security,data) </div>
+        <div class="progress mb-2 progress-bar bg-info" role="progressbar" style="width: 100%; height: 20px;" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100">API development </div>
+        <div class="progress mb-2 progress-bar bg-info" role="progressbar" style="width: 90%; height: 20px;" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100">hibernate </div>
+        <div class="progress mb-2 progress-bar bg-info" role="progressbar" style="width: 90%; height: 20px;" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100">mysql </div>
+        <div class="progress mb-2 progress-bar bg-info" role="progressbar" style="width: 90%; height: 20px;" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100"> oracle </div>
+        <div class="progress mb-2 progress-bar bg-info" role="progressbar" style="width: 90%; height: 20px;" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100"> plsql </div>
+        <div class="progress mb-2 progress-bar bg-info" role="progressbar" style="width: 90%; height: 20px;" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100">design patterns</div>
+        <div class="progress mb-2 progress-bar bg-info" role="progressbar" style="width: 90%; height: 20px;" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100">data structure</div>
+        <div class="progress mb-2 progress-bar bg-info" role="progressbar" style="width: 90%; height: 20px;" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100">algorithms</div>
+        <h6>Front-end</h6>
+        <div class="progress mb-2 progress-bar bg-info" role="progressbar" style="width: 100%; height: 20px;" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100">HTML </div>
+        <div class="progress mb-2 progress-bar bg-info" role="progressbar" style="width: 100%; height: 20px;" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100">CSS</div>
+        <div class="progress mb-2 progress-bar bg-info" role="progressbar" style="width: 100%; height: 20px;" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100">Bootstrap </div>
+        <div class="progress mb-2 progress-bar bg-info" role="progressbar" style="width: 90%; height: 20px;" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100">JavaScript </div>
+        <div class="progress mb-2 progress-bar bg-info" role="progressbar" style="width: 90%; height: 20px;" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100"> ReactJS </div>
+        <h6>Artificial intelligence</h6>
+       <div class="progress mb-2 progress-bar bg-info" role="progressbar" style="width: 70%; height: 20px;" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100">Machine learning </div>
+       <div class="progress mb-2 progress-bar bg-info" role="progressbar" style="width: 70%; height: 20px;" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100">Deep learning </div>
+       <div class="progress mb-2 progress-bar bg-info" role="progressbar" style="width: 70%; height: 20px;" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100">Python</div>
+       </div>
+       
+      <div class="col-lg-6">
+        <h4>Soft Skills</h4>
+        <div class="progress mb-2 progress-bar bg-info" role="progressbar" style="width: 80%; height: 20px;" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100">Communication </div>
+        <div class="progress mb-2 progress-bar bg-info" role="progressbar" style="width: 100%; height: 20px;" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100">Teamwork </div>
+        <div class="progress mb-2 progress-bar bg-info" role="progressbar" style="width: 90%; height: 20px;" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100"> Problem Solving </div>
+      </div>
+    </div>
+  </div>
+</section>
+<section id="Services" class="bg-light">
+  <div class="line"></div>
+  <div class="container">
+    <h2 class="section-heading text-uppercase">Services</h2>
+    <div class="row">
+      <div class="col-lg-4 col-md-12">
+        <div class="service-item text-center">
+          <span class="icon">
+            <i class="fas fa-code"></i>
+          </span>
+          <h4 class="service-title">Web Development</h4>
+          <p class="service-description">I specialize in building robust and scalable web applications using Java Spring framework and modern front-end technologies like React.</p>
+        </div>
+      </div>
+      <div class="col-lg-4 col-md-12">
+        <div class="service-item text-center">
+          <span class="icon">
+            <i class="fas fa-database"></i>
+          </span>
+          <h4 class="service-title">Database Design</h4>
+          <p class="service-description">I design efficient and optimized database structures to ensure smooth data storage and retrieval for your web applications.</p>
+        </div>
+      </div>
+      <div class="col-lg-4 col-md-12">
+        <div class="service-item text-center">
+          <span class="icon">
+            <i class="fas fa-cogs"></i>
+          </span>
+          <h4 class="service-title">API Development</h4>
+          <p class="service-description">I create RESTful APIs using Java Spring framework to facilitate seamless communication between your web application and other systems or clients.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="line"></div>
+</section>
+
+<section id="Contact" class="bg-light">
+  <div class="container">
+    <div class="text-justify">
+      <h2 class="section-heading text-uppercase">Contact Me</h2>
+      <p>  You can contact me by sending a message on linkedin via email</p>
+    </div>
+    <div class="row">
+     
+      <div class="col-lg-6 col-md-6 col-sm-6">
+        <img src="./linkdln.png" alt="LinkedIn" style="width: 15%;" onclick="openNewPage('https://www.linkedin.com/in/mohammad-zahedipour-a320952a0/')"> Send a message on LinkedIn
+        <br>
+        <img src="./icons8-email-480.png" alt="Email" style="width: 15%;" onclick="gotoLink('mailto:mohammadzahedipour.freelance@gmail.com?&body=I%20just%20wanted%20to%20say%20hello!')"> Send an email to me
+        <br>
+      </div>
+    </div>
+  </div>
+</section>
+</body>
+</html>
